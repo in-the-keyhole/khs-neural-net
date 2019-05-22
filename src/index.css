@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.DrawingBoard {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  user-select: none;
+  touch-action: none;
+  background-color: #fff; }
+  .DrawingBoard .BoardWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    transition: 0s 180s;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    flex: 1 1 100%; }
+    .DrawingBoard .BoardWrapper .Board {
+      position: absolute;
+      background-color: #000; }
+  .DrawingBoard .BoardWrapper:hover {
+    color: transparent;
+    transition: 0.3s; }
+  .DrawingBoard .ButtonsRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    height: 75px;
+    background-color: #fff; }

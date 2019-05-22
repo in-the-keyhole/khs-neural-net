@@ -1,0 +1,12 @@
+{
+  "name": "Start on Heroku: Go",
+  "description": "Go Getting Started Example App",
+  "keywords": [
+    "khs-neural-net",
+    "go",
+    "sample",
+    "example"
+  ],
+  "website": "http://github.com/in-the-keyhole/khs-nueral-net",
+  "repository": "http://github.com/in-the-keyhole/khs-nueral-net"
+}

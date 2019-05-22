@@ -1,0 +1,114 @@
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #fafafa;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+body {
+  position: fixed; }
+
+#root {
+  width: 100%;
+  height: 100%; }
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.RoundedCornersBox {
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box; }
+  .RoundedCornersBox .Header {
+    flex: 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    font-weight: 700;
+    color: #999; }
+  .RoundedCornersBox .Content {
+    flex: 1 0 auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: row; }
+
+
+
+.MnistView {
+  width: 100%;
+  height: calc(100vh - 65px);
+  box-shadow: inset 0px 10px 30px -10px black;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: center; }
+  .MnistView.mobile {
+    background-color: #fafafa;
+    flex-direction: column;
+    padding: 20px; }
+    .MnistView.mobile .RoundedCornersBox {
+      margin-bottom: 20px;
+      width: 100%;
+      flex: 1 0 auto; }
+      .MnistView.mobile .RoundedCornersBox:last-child {
+        margin-bottom: 0px;
+        height: 65%;
+        flex: none; }
+  .MnistView.desktop {
+    background-color: #fafafa;
+    flex-direction: row;
+    padding: 20px; }
+    .MnistView.desktop .RoundedCornersBox {
+      margin-right: 20px;
+      height: 100%;
+      flex: 2; }
+      .MnistView.desktop .RoundedCornersBox:last-child {
+        margin-right: 0px;
+        flex: 1; }
