@@ -299,6 +299,10 @@
 			"revisionTime": "2019-03-06T14:45:11Z"
 		},
 		{
+			"path": "gonum",
+			"revision": ""
+		},
+		{
 			"checksumSHA1": "5/tSd+mdupc9funqeKL8VAPuopw=",
 			"path": "google.golang.org/api/gensupport",
 			"revision": "5130c824a526b9755fd6a4154b01b5693df0e664",
