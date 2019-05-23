@@ -180,9 +180,9 @@ class MainView extends Component {
 
                     <div className="col-md-6">
 
-                        Prediction
-             
-            <div style={{ fontSize: "250px" }}>{Prediction}</div>
+                       <p style={{ fontSize: "50px"}}>Prediction</p>
+              
+                        <div style={{ fontSize: "200px" }}>{Prediction}</div>
 
                     </div>
                 </div>
