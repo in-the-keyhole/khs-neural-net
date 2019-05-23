@@ -16,10 +16,12 @@ Online DEMO can be accessed [HERE](https://khs-neural-net.herokuapp.com)
 2. Clone Repo in Go 'SRC' directory 
 3. Open console in cloned repo directory and perform these commands 
 
-`$ npm install
+```
+ $ npm install
  $ npm run build       // Builds React Bundle 
  $ go build            // Build API server and web server
  $ ./khs-neural-net    // Executes Go 
+```
 
 4. Open browser to http://localhost:8000
 
