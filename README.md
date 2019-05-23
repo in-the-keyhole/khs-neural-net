@@ -18,7 +18,7 @@ Online DEMO can be accessed [HERE](https://khs-neural-net.herokuapp.com)
  $ npm install
  $ npm run build       // Builds React Bundle 
  $ go build            // Build API server and web server
- $ ./khs-neural-net    // Executes Go 
+ $ ./khs-neural-net    // Executes Go Binary
 ```
 
 4. Open browser to http://localhost:8000
