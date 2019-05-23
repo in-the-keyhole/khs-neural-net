@@ -108,6 +108,10 @@
 			"revision": "7fcbc72f853b92b5720db4a6b8482be612daef24"
 		},
 		{
+			"path": "github/gonum",
+			"revision": ""
+		},
+		{
 			"checksumSHA1": "zeixbGy5h77jKZN8UJ0C2ZAOxbY=",
 			"path": "go.opencensus.io",
 			"revision": "3b8e2721f2c3c01fa1bf4a2e455874e7b8319cd7",
@@ -301,6 +305,12 @@
 		{
 			"path": "gonum",
 			"revision": ""
+		},
+		{
+			"checksumSHA1": "qkzrv+5SiIPBgc/9SWlmo9PM3B0=",
+			"path": "gonum.org/v1/gonum",
+			"revision": "a5f8f3a4840b76492571a7beed7958b420800458",
+			"revisionTime": "2019-05-17T02:14:21Z"
 		},
 		{
 			"checksumSHA1": "5/tSd+mdupc9funqeKL8VAPuopw=",
