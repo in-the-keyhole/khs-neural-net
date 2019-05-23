@@ -196,6 +196,12 @@
 			"revisionTime": "2019-03-15T01:58:20Z"
 		},
 		{
+			"checksumSHA1": "SGKtcqzDq/Iy17mfML7MDqpEvH0=",
+			"path": "golang.org/x/exp/rand",
+			"revision": "efd6b22b2522a48712e1fd0b3c1ab34d243f5245",
+			"revisionTime": "2019-02-08T15:40:11Z"
+		},
+		{
 			"checksumSHA1": "hKZGpbFuCrkE4s1vxubKK1aFlfI=",
 			"path": "golang.org/x/net/context",
 			"revision": "d9558e5c97f85372afee28cf2b6059d7d3818919"
@@ -405,6 +411,48 @@
 		{
 			"path": "gonum.org/v1/gonum/matgonum.org/v1/gonum/stat/distuv",
 			"revision": ""
+		},
+		{
+			"checksumSHA1": "IslZjD17Uy/esjxp0hBzRQpq4w0=",
+			"path": "gonum.org/v1/gonum/mathext",
+			"revision": "a5f8f3a4840b76492571a7beed7958b420800458",
+			"revisionTime": "2019-05-17T02:14:21Z"
+		},
+		{
+			"checksumSHA1": "7FSI5XLLseGQshw0Wg0NYlof+ig=",
+			"path": "gonum.org/v1/gonum/mathext/internal/amos",
+			"revision": "a5f8f3a4840b76492571a7beed7958b420800458",
+			"revisionTime": "2019-05-17T02:14:21Z"
+		},
+		{
+			"checksumSHA1": "TxUiglmJJInobtEDTj+u50KM4K4=",
+			"path": "gonum.org/v1/gonum/mathext/internal/cephes",
+			"revision": "a5f8f3a4840b76492571a7beed7958b420800458",
+			"revisionTime": "2019-05-17T02:14:21Z"
+		},
+		{
+			"checksumSHA1": "LyN569ZarzYHLNJeDUrQr90E4sM=",
+			"path": "gonum.org/v1/gonum/mathext/internal/gonum",
+			"revision": "a5f8f3a4840b76492571a7beed7958b420800458",
+			"revisionTime": "2019-05-17T02:14:21Z"
+		},
+		{
+			"checksumSHA1": "ji6LINuFphaEzCqSC19qjBX494k=",
+			"path": "gonum.org/v1/gonum/stat",
+			"revision": "a5f8f3a4840b76492571a7beed7958b420800458",
+			"revisionTime": "2019-05-17T02:14:21Z"
+		},
+		{
+			"checksumSHA1": "u40r2nPaPEamSBDWex2XPaa49co=",
+			"path": "gonum.org/v1/gonum/stat/combin",
+			"revision": "a5f8f3a4840b76492571a7beed7958b420800458",
+			"revisionTime": "2019-05-17T02:14:21Z"
+		},
+		{
+			"checksumSHA1": "7ADFki6Gb61IQBz6o0xdgjmgS1M=",
+			"path": "gonum.org/v1/gonum/stat/distuv",
+			"revision": "a5f8f3a4840b76492571a7beed7958b420800458",
+			"revisionTime": "2019-05-17T02:14:21Z"
 		},
 		{
 			"checksumSHA1": "5/tSd+mdupc9funqeKL8VAPuopw=",
