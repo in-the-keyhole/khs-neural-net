@@ -157,6 +157,9 @@ class MainView extends Component {
 
             <div className="container">
 
+               <div className="row">
+                    <div className="col-md-12"> <p className="text-center font-weight-light"><a href="https://keyholesoftware.com">Keyhole Software's</a>  MNIST implementation recognizes numbers (0-9), source code <a href="https://github.com/in-the-keyhole/khs-neural-net">HERE</a> </p>  </div>
+                </div>
 
                 <div className="row">
                     <div className="col-md-6">
@@ -185,7 +188,7 @@ class MainView extends Component {
                 </div>
                 <div className="row">
                     <div className="col-md-12"> &nbsp; </div>
-                    <div className="col-md-12"> <p className="text-center font-weight-light">Keep trying, this is a slow simple Perceptron Neural Net </p>       </div>
+                    <div className="col-md-12"> <p className="text-center font-weight-light">Keep trying, this is a simple Perceptron Neural Net. Draw in center... </p>       </div>
                 </div>
 
             </div>)
