@@ -23,6 +23,15 @@ import (
 	"github.com/gorilla/mux"
 )
 
+var net Network
+
+func init() {
+
+	net = CreateNetwork(784, 400, 10, 0.1)
+	load(&net)
+
+}
+
 func main() {
 
 	var port string
@@ -108,8 +117,8 @@ func Predict(w http.ResponseWriter, r *http.Request) {
 	pngFile, _ := os.Open("test.png")
 	pngImage, err := png.Decode(bufio.NewReader(pngFile))
 
-	net := CreateNetwork(784, 400, 10, 0.1)
-	load(&net)
+	//net := CreateNetwork(784, 400, 10, 0.1)
+	//load(&net)
 	//	s := mnistPredict(&net)
 	s := predictFromMemoryImage(net, pngImage)
 

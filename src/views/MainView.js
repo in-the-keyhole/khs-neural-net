@@ -173,8 +173,6 @@ class MainView extends Component {
 
             <button onClick={this.clear}>Clear</button>
 
-            <button onClick={this.scale}>Predict</button>
-
         </div>
 
     <div className="col-md-6">
@@ -184,9 +182,13 @@ class MainView extends Component {
             <div style={{fontSize: "200px"}}>{Prediction}</div>
 
     </div>
+  </div>
+     <div className="row">
+         <div className="col-md-12"> &nbsp; </div>
+         <div className="col-md-12"> <p className="text-center font-weight-light">Keep trying, this is a slow simple Perceptron Neural Net </p>       </div>  
+    </div>   
 
-    </div>
-    </div>)
+ </div>)
 
  }    
 }
