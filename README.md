@@ -5,9 +5,7 @@ UI is implemented in `ReactJS` and server side API/Nueral Net is implemented in 
 
 Online DEMO can be accessed [HERE](https://khs-neural-net.herokuapp.com)
 
-
-
-
+![](https://github.com/in-the-keyhole/khs-neural-net/blob/master/images/neural-net.png)
 
 
 # Installing Running 
