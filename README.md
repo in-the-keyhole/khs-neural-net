@@ -11,7 +11,7 @@ Online DEMO can be accessed [HERE](https://khs-neural-net.herokuapp.com)
 # Installing Running 
 
 1. Install Go and Node.js
-2. Clone Repo in Go 'SRC' directory 
+2. Clone Repo in Go `SRC` directory 
 3. Open console in cloned repo directory and perform these commands 
 
 ```
