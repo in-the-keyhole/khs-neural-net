@@ -6,6 +6,7 @@ import (
 	"encoding/base64"
 	"encoding/csv"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"image"
 	"image/png"
@@ -40,25 +41,35 @@ func main() {
 		port = "8000"
 	}
 
-	router := mux.NewRouter()
+	mnist := flag.String("mnist", "", "Either train neural network")
+	flag.Parse()
 
-	router.HandleFunc("/api/train", Train).Methods("GET")
-	router.HandleFunc("/api/predict", Predict).Methods("POST")
+	if *mnist == "train" {
+		mnistTrain(&net)
+		save(net)
+	} else {
 
-	router.PathPrefix("/").Handler(http.FileServer(http.Dir("./build")))
+		router := mux.NewRouter()
 
-	var gracefulStop = make(chan os.Signal)
-	signal.Notify(gracefulStop, syscall.SIGTERM)
-	signal.Notify(gracefulStop, syscall.SIGINT)
-	go func() {
-		sig := <-gracefulStop
-		log.Printf("caught sig: %+v", sig)
-		log.Println("Wait for 2 second to finish processing")
-		os.Exit(0)
-	}()
+		router.HandleFunc("/api/train", Train).Methods("GET")
+		router.HandleFunc("/api/predict", Predict).Methods("POST")
 
-	log.Println("Starting  and listening on Port ", port)
-	log.Fatal(http.ListenAndServe(":"+port, router))
+		router.PathPrefix("/").Handler(http.FileServer(http.Dir("./build")))
+
+		var gracefulStop = make(chan os.Signal)
+		signal.Notify(gracefulStop, syscall.SIGTERM)
+		signal.Notify(gracefulStop, syscall.SIGINT)
+		go func() {
+			sig := <-gracefulStop
+			log.Printf("caught sig: %+v", sig)
+			log.Println("Wait for 2 second to finish processing")
+			os.Exit(0)
+		}()
+
+		log.Println("Starting  and listening on Port ", port)
+		log.Fatal(http.ListenAndServe(":"+port, router))
+
+	}
 
 }
 

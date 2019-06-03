@@ -23,7 +23,17 @@ Online DEMO can be accessed [HERE](https://khs-neural-net.herokuapp.com)
 
 4. Open browser to http://localhost:8000
 
+# Training Network
 
+Network has been pre trained, but it can be retrained with the following commands
+
+1. Unzip mnist_dataset
+2. From a command shell execute the following commands
+
+```
+$ go build
+$ ./khs-neural-net -mnist train
+```
 
 # References 
 
