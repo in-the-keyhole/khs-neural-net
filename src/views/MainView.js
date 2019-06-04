@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import DrawUtil from '../utils/DrawUtil.js'
 import api from '../utils/api.js'
-
+//eslint-disable-next-line
 const MNIST_MODEL_INPUT_PIXEL_SIZE = 28;
 const MNIST_DRAWING_BOARD_BASE_DIM = 400;
+//eslint-disable-next-line
 const MNIST_DRAWING_BOARD_BASE_TEXT_SIZE = 40;
 const MNIST_DRAWING_BOARD_BASE_BRUSH_DIAMETER = 40;  //40
 const MNIST_DRAWING_BOARD_BASE_BRUSH_COLOR = "#000";
@@ -188,7 +189,7 @@ class MainView extends Component {
                 </div>
                 <div className="row">
                     <div className="col-md-12"> &nbsp; </div>
-                    <div className="col-md-12"> <p className="text-center font-weight-light">Keep trying, this is a simple Perceptron Neural Net. Draw in center... </p>       </div>
+                    <div className="col-md-12"> <p className="text-center font-weight-light">Keep trying, this is a simple Perceptron Neural Net. Draw in center... test </p>       </div>
                 </div>
 
             </div>)
