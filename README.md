@@ -3,7 +3,7 @@ Simple Neural Net implementation, Taken from the MNIST Nueral Net example implem
 
 UI is implemented in `ReactJS` and server side API/Nueral Net is implemented in `GO` 
 
-Online DEMO can be accessed [HERE](https://khs-neural-net.herokuapp.com)
+### Online DEMO can be accessed [HERE](https://khs-neural-net.herokuapp.com)
 
 ![](https://github.com/in-the-keyhole/khs-neural-net/blob/master/images/neural-net.png)
 
